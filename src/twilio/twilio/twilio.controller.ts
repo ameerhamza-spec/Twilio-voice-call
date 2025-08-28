@@ -35,7 +35,7 @@ export class TwilioController {
 
         const response = new VoiceResponse();
         const connect = response.connect();
-        connect.stream({ url: 'wss://ab8fd3972234.ngrok-free.app/twilio/stream' });
+        connect.stream({ url: 'wss://ygjxr3qaqk.ap-south-1.awsapprunner.com/twilio/stream' });
         response.say(
             'This TwiML instruction is unreachable unless the Stream is ended by your WebSocket server.'
         );
